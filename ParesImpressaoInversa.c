@@ -22,12 +22,12 @@ int main()
             printf("\nDigite o %dº número: ", i + 1);
             scanf("%d", &numeros[i]);
 
-            if (numeros[i] % 2 != 0)
+            if (numeros[i] % 2 != 0 || numeros[i] < 0)
             {
                 printf("\nNÚMERO INVÁLIDO! DIGITE UM NÚMERO PAR.\n");
             }
 
-        } while (numeros[i] % 2 != 0);
+        } while (numeros[i] % 2 != 0 || numeros[i] < 0);
     }
 
     printf("\nNúmeros obtidos: \n");
