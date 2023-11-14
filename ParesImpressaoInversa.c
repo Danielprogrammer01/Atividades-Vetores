@@ -15,10 +15,8 @@ int main()
 
     for (i = 0; i < quantidade; i++)
     {
-
         do
         {
-
             printf("\nDigite o %dº número: ", i + 1);
             scanf("%d", &numeros[i]);
 
